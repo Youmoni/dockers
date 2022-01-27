@@ -1,3 +1,1 @@
-FROM ghcr.io/graalvm/graalvm-ce:java11
-
-MAINTAINER Youmoni "https://www.youmoni.com"
+FROM ghcr.io/graalvm/graalvm-ce:ol8-java17-22.0.0.2-b1

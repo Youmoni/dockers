@@ -1,6 +1,4 @@
-FROM adoptopenjdk/openjdk11:alpine-slim
-
-MAINTAINER Youmoni "https://www.youmoni.com"
+FROM adoptopenjdk/openjdk17:alpine-slim
 
 RUN apk add --no-cache bash
 #RUN apk add --update --no-cache bash gawk sed grep bc coreutils bind-tools

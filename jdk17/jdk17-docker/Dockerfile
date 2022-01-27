@@ -1,6 +1,4 @@
-FROM adoptopenjdk/openjdk11:slim
-
-MAINTAINER Youmoni "https://www.youmoni.com"
+FROM adoptopenjdk/openjdk17:slim
 
 RUN apt-get update; apt-get install -y bash gawk sed grep bc coreutils dnsutils apt-transport-https gnupg2 software-properties-common
 RUN curl -fsSL https://download.docker.com/linux/debian/gpg > /var/tmp/docker.key; apt-key add /var/tmp/docker.key; rm /var/tmp/docker.key
