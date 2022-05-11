@@ -1,1 +1,1 @@
-FROM ghcr.io/graalvm/graalvm-ce:ol8-java17-22.0.0.2-b1
+FROM ghcr.io/graalvm/graalvm-ce:ol8-java17-22.1.0-b1
