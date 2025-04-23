@@ -1,0 +1,1 @@
+FROM container-registry.oracle.com/graalvm/jdk:21
